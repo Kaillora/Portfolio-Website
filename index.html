@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai Llora's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav-container" id="navbar">
+        <div class="logo">KL</div>
+        <div class="nav">
+            <p><a href="#header" class="nav-item">Home</a></p>
+            <p><a href="#about" class="nav-item">About</a></p>
+            <p><a href="#skills" class="nav-item">Skills</a></p>
+            <p><a href="#projects" class="nav-item">Projects</a></p>
+            <p><a href="#contact" class="nav-item">Contact</a></p>
+        </div>
+    </div>
+    
+    <main>
+        <!-- Header Section -->
+        <section id="header">
+            <div class="header-bg"></div>
+            <div class="header-content">
+                <h1 class="header-title">Hello, I'm <span class="gradient-text">Kai Llora</span></h1>
+                <p class="header-subtitle typewriter">Computer Science Student & Software Developer</p>
+                <div class="header-buttons">
+                    <a href="#contact" class="cta-button">Contact Me</a>
+                    <a href="images/Resume.pdf" download class="cta-button secondary">Resume</a>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About -->
+        <section id="about" class="animate-on-scroll">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/portrait.JPG" alt="portrait">
+                </div>
+                <div class="about-text">
+                    <p>Hi, I am a Computer Science student at California State University, Fullerton with a focus in software development, data science, and AI/ML. 
+                        I am currently in the process of developing skills to combine strong programming fundamentals with practical project experience to build 
+                        innovative and exciting solutions.
+                    </p>  
+                    <p>Through my coursework in Algorithm Engineering, Data Structures, and Software Engineering, I've built a solid 
+                        foundation in computer science principles while developing practical implementation skills. 
+                        I'm passionate about exploring the intersection of software development and interactive systems, with past interests in 
+                        game development and application design, yet shifting my attention to more complicated systems and frameworks. Currently 
+                        seeking opportunities to apply my technical skills in collaborative 
+                        environments where I can contribute to meaningful projects while continuing to grow as a developer.</p> 
+                        </p>
+                    </div>
+            </div>
+        </section>
+        
+        <!-- Skills -->
+        <section id="skills">
+            <div class="section-header">
+            <h2 class="section-title">Skills</h2>
+            </div>
+            
+            <!-- Languages Category -->
+            <div class="languages-category">
+                <h3>Languages</h3>
+                <div class="language-item">Python</div>
+                <div class="language-item">HTML</div>
+                <div class="language-item">CSS</div>
+                <div class="language-item">JavaScript</div>
+                <div class="language-item">C++</div>
+                <div class="language-item">SQL</div>
+            </div>
+        </section>
+                
+        <!-- Projects -->
+        <section id="projects" class="animate-on-scroll">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <p>A showcase of my recent technical projects and applications.</p>
+            
+            <div class="project-grid">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/nudeck.png">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Nu-Deck</h3>
+                        <p class="project-description">Pokemon-Themed handheld console designed with a team
+                            of 14 utilzing aspects of software and hardware design to develop an interactive game.
+                            </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <a href="https://github.com/Kentalope22/Nu-Deck?tab=readme-ov-file#nu-deck" target='blank' class="project-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/nebuluv.png">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">NebuLuv</h3>
+                        <p class="project-description">Space-Themed personality quiz web app providing users an 
+                            interactive experience that determines which planet best matches their personality and suitable romantic mathces. 
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/k8iekitkat/nebuluv.git" target='blank' class="project-link">View Project →</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="animate-on-scroll">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <p>Interested in working together or connecting? Feel free to reach out using the form below or connect with me on social media.</p>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="e3af6a5a-74fa-46f6-94cd-9f9cd57e76b6">
+
+            <div class="contact-form">
+                <div class="form-group">
+                    <label class="form-label" for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea id="message" name="message" class="form-input" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/kai.llora/" target="_blank" class="social-link">
+                    <img src="images/instagram.svg">
+                </a>
+                <a href="https://www.linkedin.com/in/kaillora/" target="_blank" class="social-link">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://x.com/KoolGuyKai" target="_blank" class="social-link">
+                    <img src="images/x.svg" alt="X">
+                </a>
+                <a href="https://github.com/Kaillora" target="_blank" class="social-link">
+                    <img src="images/github.svg" alt="GitHub">
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
