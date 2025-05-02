@@ -1,11 +1,5 @@
 :root {
-    --primary: #333333;
-    --secondary: #666666;
-    --accent: #999999;
-    --background: #0f0f12;
     --text: #f0f0f0;
-    --text-muted: #a0a0a0;
-    --card-bg: #1a1a20;
     --transition: all 0.3s ease;
 }
 
@@ -21,7 +15,7 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    background-color: #0f0f12;
     color: white;
     line-height: 1.6;
     overflow-x: hidden;
@@ -38,7 +32,7 @@ body {
     padding: 1.5rem 5%;
     z-index: 100;
     backdrop-filter: blur(10px);
-    background-color: rgba(15, 15, 18, 0.8);
+    background-color: #0f0f12;
     transition: var(--transition);
 }
 
@@ -149,7 +143,7 @@ section {
 .home-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--primary);
+    background: #333333;
     color: white;
     border: none;
     border-radius: 0;
@@ -163,7 +157,7 @@ section {
 .home-button.secondary {
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--primary);
+    background: #333333;
     color: white;
     border: none;
     border-radius: 0;
@@ -175,7 +169,7 @@ section {
 }
 
 .home-button:hover {
-    background: var(--accent);
+    background: #999999;
 }
 
 .scroll-indicator {
@@ -272,7 +266,7 @@ section {
 }
 
 .project-item {
-    background-color: var(--card-bg);
+    background-color: #202020;
     border-radius: 0;
     overflow: hidden;
     box-shadow: none;
@@ -282,7 +276,7 @@ section {
 }
 
 .project-item:hover {
-    border-color: var(--accent);
+    border-color: #999999;
 }
 
 .project-image {
@@ -321,7 +315,7 @@ section {
 
 .tech-tag {
     padding: 0.3rem 0.8rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #0f0f12;
     border-radius: 0;
     font-size: 0.8rem;
     color: var(--text-muted);
@@ -360,7 +354,7 @@ section {
 .form-input {
     width: 30rem;
     padding: 1rem;
-    background-color: var(--card-bg);
+    background-color: #202020;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0;
     color: var(--text);
@@ -369,7 +363,7 @@ section {
 
 .form-input:focus {
     outline: none;
-    border-color: var(--accent);
+    border-color: #999999;
     box-shadow: none;
 }
 
@@ -381,7 +375,7 @@ textarea.form-input {
 .submit-btn {
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--primary);
+    background: #333333;
     color: white;
     border: none;
     border-radius: 0;
@@ -392,7 +386,7 @@ textarea.form-input {
 }
 
 .submit-btn:hover {
-    background: var(--accent);
+    background: #999999;
 }
 
 .social-links {
@@ -406,7 +400,7 @@ textarea.form-input {
     width: 40px;
     height: 40px;
     border-radius: 0;
-    background-color: var(--card-bg);
+    background-color: #202020;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -417,8 +411,8 @@ textarea.form-input {
 }
 
 .social-link:hover {
-    border-color: var(--accent);
-    background: var(--primary);
+    border-color: #999999;
+    background: #333333;
 }
 
 .social-link img {
